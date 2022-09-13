@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  book-report_db:
+    image: mysql:latest
+    volumes:
+      - "./.mysql-data/db:/var/lib/mysql"
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: super-secure-password
+      MYSQL_DATABASE: book-report
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: super-secure-password

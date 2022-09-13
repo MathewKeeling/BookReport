@@ -1,0 +1,7 @@
+**/secrets
+**/complete-db-invalid.csv
+**/complete-db.csv
+**/invalid_isbns.csv
+**/.vscode
+**/__pycache__
+**/*.pyc
